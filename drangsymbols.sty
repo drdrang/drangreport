@@ -1,0 +1,27 @@
+\NeedsTeXFormat{LaTeX2e}[1996/06/01]
+\ProvidesPackage{unisymbols}[2011/05/25 v1.1 drdrang]
+
+% Redefine \in to refer to inch marks, \isin to refer to the old \in
+\newcommand{\isin}{\ensuremath{\in}}
+\renewcommand{\in}{\ensuremath{{}^{\prime\prime}}}
+\newcommand{\ft}{\ensuremath{{}^\prime}}
+\newcommand{\by}{\ensuremath{\!\times\!}}
+\newcommand{\degrees}{\ensuremath{{}^\circ}}
+\newcommand{\lbin}{\ensuremath{\mathrm{lb \! \cdot \! in}}}
+\newcommand{\inlb}{\ensuremath{\mathrm{in \! \cdot \! lb}}}
+\newcommand{\kin}{\ensuremath{\mathrm{k \! \cdot \! in}}}
+\newcommand{\ink}{\ensuremath{\mathrm{in \! \cdot \! k}}}
+\newcommand{\lbft}{\ensuremath{\mathrm{lb \! \cdot \! ft}}}
+\newcommand{\ftlb}{\ensuremath{\mathrm{ft \! \cdot \! lb}}}
+\newcommand{\kft}{\ensuremath{\mathrm{k \! \cdot \! ft}}}
+\newcommand{\ftk}{\ensuremath{\mathrm{ft \! \cdot \! k}}}
+\newcommand{\Nmm}{\ensuremath{\mathrm{N \! \cdot \! mm}}}
+\newcommand{\Nm}{\ensuremath{\mathrm{N \! \cdot \! m}}}
+\newcommand{\degree}{\ensuremath{^\circ}}
+
+\newcommand{\sfrac}[2]{\ensuremath{\leavevmode\kern0em\raise.5ex
+         \hbox{\mbox{\fontsize\sf@size\z@
+                           \selectfont#1}}\kern-.05em
+         /\kern-.1em
+          \hbox{\mbox{\fontsize\sf@size\z@
+                            \selectfont#2}}}}
